@@ -192,3 +192,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 453.120314 seconds.
+  path: Assets/BlenderObjects
+  artifactKey: Guid(4fb75a6fab154904d8720d3522c6271a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderObjects using Guid(4fb75a6fab154904d8720d3522c6271a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5305191d1252538618f57bf3200e551') in 0.008012 seconds 
+  Import took 0.013152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.614525 seconds.
+  path: Assets/BlenderObjects/clock.fbx
+  artifactKey: Guid(5fd63608f11d3a44184a3d5b164e829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderObjects/clock.fbx using Guid(5fd63608f11d3a44184a3d5b164e829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663f2bb67b10600d2f9d58c2f358c165') in 0.367798 seconds 
+  Import took 0.371453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/BlenderObjects/final_lampe.fbx
+  artifactKey: Guid(36b17d6e291bd824885e2beddb36bcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderObjects/final_lampe.fbx using Guid(36b17d6e291bd824885e2beddb36bcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8051a2ce25d69b17aced4f277cc00f6f') in 0.021947 seconds 
+  Import took 0.025556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/BlenderObjects/final_ticketautomat_grau.fbx
+  artifactKey: Guid(e8eb1516a48e61546ac6d636cd2561a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderObjects/final_ticketautomat_grau.fbx using Guid(e8eb1516a48e61546ac6d636cd2561a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06269edbec3cfe119af9eb5443b19489') in 0.026149 seconds 
+  Import took 0.029273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/BlenderObjects/final_ticketautomat_rot_blau.fbx
+  artifactKey: Guid(fa6a3bc1b2e7af6458694a0fe75eb691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderObjects/final_ticketautomat_rot_blau.fbx using Guid(fa6a3bc1b2e7af6458694a0fe75eb691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0ab66f549100ea594caf2d0296a15a') in 0.045698 seconds 
+  Import took 0.048813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/BlenderObjects/easy_mülleimer.fbx
+  artifactKey: Guid(ff0c0b67e6b24b44ba8d2b4ccdcc3968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderObjects/easy_mülleimer.fbx using Guid(ff0c0b67e6b24b44ba8d2b4ccdcc3968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e721fb56fe20b68c4fb45210e42831a') in 0.015032 seconds 
+  Import took 0.018732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/BlenderObjects/smileys3D.fbx
+  artifactKey: Guid(8654178ec1e75df40abaffa3dc890f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderObjects/smileys3D.fbx using Guid(8654178ec1e75df40abaffa3dc890f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f85287ad2feb4974f01f423057a326') in 0.082658 seconds 
+  Import took 0.095058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/BlenderObjects/FAXR3D.fbx
+  artifactKey: Guid(207d7603b3b97b74c885acdf255eeee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderObjects/FAXR3D.fbx using Guid(207d7603b3b97b74c885acdf255eeee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aae4fa04425963d4f76c5c1efd6136c') in 0.026805 seconds 
+  Import took 0.031001 seconds .
+
