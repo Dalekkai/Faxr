@@ -4,58 +4,45 @@ using UnityEngine;
 
 public class TrainMovement : MonoBehaviour
 {
-    public float speed = 8;
-    public float beschleunigungSpeed;
-    public float bremsSpeed;
-    public bool sollHalt;
-
-    // Start is called before the first frame update
-
+    Rigidbody rb;
+    [SerializeField] float speed = 500f; // The variable for the train speed.
+    bool sollHalt = false; // Checks if the train needs to stop.
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
-        //Checks if the train should breake.
-        if (sollHalt == false)
-        {
-            //if not the train drives with the Beschleunigung in order  to  get faster from a stop. 
-             transform.Translate(Vector3.forward * Time.deltaTime * Beschleunigung() );
-        }
-        else 
-        {
-            Debug.Log("Halt");
-
-            //if the next station gets closer the train still moves forward but with decreasing speed. 
-            transform.Translate(Vector3.forward * Time.deltaTime * Break() );
-        }
-       
+      Schaffner(); 
     }
 
-    float Beschleunigung ()
+    void Schaffner()
+   { // If the sollHalt bool is not true the drive method is called, if the bool is true, the break method is called.
+     if (sollHalt)
+     {
+       Break();
+     }
+     Drive();
+   }
+
+    private void OnTriggerEnter(Collider other) 
     {
-        // A simple way to fasten the speed. 200 is the max speed for now.
-        if (speed <= 200)
-        {
-            speed = speed * beschleunigungSpeed;
-        }
-        return speed;
+      sollHalt = true;  // Changes the bool if the stop collider is entered.
     }
 
-     
-    float Break ()
+
+
+   
+    void Drive() 
     {
-        // A simple way to lower the speed until the train has come to a stop.
-        if (speed >= 5){
-            speed = speed * bremsSpeed;
-        }
-        else {
-            speed = 0;
-        }
-        
-        return speed;
+         rb.AddRelativeForce(Vector3.back * speed * Time.deltaTime); // Adds force to the rigid body to move forward (in this case back is forth).     
     }
+
+    void Break() 
+    {
+         rb.velocity = Vector3.zero;  // A very ugly instant stop but it works. TODO
+    }
+    
 }
