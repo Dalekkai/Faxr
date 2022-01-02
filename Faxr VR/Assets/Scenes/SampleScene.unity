@@ -773,6 +773,7 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
       value: 44.415
+      value: 44.47
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1065,6 +1066,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
@@ -2238,6 +2240,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4585139eb619d984a873192833b14517, type: 3}
       propertyPath: m_LocalPosition.y
       value: 43.25
+      value: 43.04
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4585139eb619d984a873192833b14517, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2360,6 +2363,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
